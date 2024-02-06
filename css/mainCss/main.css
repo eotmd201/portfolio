@@ -258,7 +258,6 @@ pageName span{
 /**좌측메뉴**/
 .portL{
 	float: left;
-	align-items: center;
 }
 
 .portTxt{
