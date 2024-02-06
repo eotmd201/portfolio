@@ -41,9 +41,9 @@
 			$('#fullpage').fullpage({
 			sectionSelector: '.section',
 			scrolloverflow:true,
-        	anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thPage','8thPage'],
+        	anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage','8thPage'],
 			navigation:true, 
-			navigationTooltips: ['Intro', 'About', 'Portfolio01', 'Portfolio02', 'Portfolio03', 'Portfolio04', 'Portfolio05', 'Contact'],
+			navigationTooltips: ['Intro', 'About', 'Portfolio01', 'Portfolio02','Contact'],
         	slidesNavigation: true,
 			menu: '#menu',
 			})
