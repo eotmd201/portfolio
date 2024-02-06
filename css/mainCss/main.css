@@ -270,7 +270,7 @@ pageName span{
 	font-weight: 700;
 }
 .portTxt h2{
-	font-size: 20px;
+	font-size: 40px;
 	font-weight: 900;
 }
 .portTxt h3{
@@ -293,8 +293,8 @@ pageName span{
 .mViewBtn{
 	background: url(../../images/goOff.png) no-repeat center center;
 	background-size: cover;
-	width: 80px; 
-	height: 68px;
+	width: 40px;   /*80px*/ 
+	height: 34px;  /*68px*/ 
 	position: absolute;
 	top: 130px;
 	right: 0px;
@@ -308,8 +308,8 @@ pageName span{
 .mViewBtn:hover{
 	background: url(../../images/goOn.png) no-repeat center center;
 	background-size: cover;
-	width: 80px; 
-	height: 68px;
+	width: 40px;   /*80px*/ 
+	height: 34px;  /*68px*/ 
 	position: absolute;
 	top: 130px;
 	right: 0px;
