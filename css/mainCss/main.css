@@ -279,10 +279,10 @@ pageName span{
 }
 
 .mainPage{
-	background: url(../../images/림프순환보조장치2.png) no-repeat center center;
+	background: url(../../images/림프부종진단기기.jpg) no-repeat center center;
 	background-size: cover;
-	width: 300px;       /***421px***/ /***464pxpx***/
-	height: 300px;		/***244px***/ /***248px***/
+	width: 464px;       /***421px***/
+	height: 248px;		/***244px***/
 	margin: 0 auto;
 	text-indent: -9999px;
 }
