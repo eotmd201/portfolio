@@ -159,13 +159,11 @@ pageName span{
 #section1{
 	background: #f9ecd8;
 	width: 100%;
-	display: block;
 }
 
 /**좌측메뉴**/
 .aboutL{
 	float: left;
-	display: block;
 }
 .aboutTxt{
 	text-align: center;
@@ -213,7 +211,6 @@ pageName span{
 	margin: 0 auto;
 	line-height: 35px;/**35px;**/
 	padding: 0px 0; /**78px 0;**/
-	display: block;
 }
 
 .Clock
