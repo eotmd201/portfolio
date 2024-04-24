@@ -164,6 +164,7 @@ pageName span{
 /**좌측메뉴**/
 .aboutL{
 	float: left;
+	display: block;
 }
 .aboutTxt{
 	text-align: center;
