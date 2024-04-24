@@ -159,12 +159,12 @@ pageName span{
 #section1{
 	background: #f9ecd8;
 	width: 100%;
+	display: block;
 }
 
 /**좌측메뉴**/
 .aboutL{
 	float: left;
-	display: block;
 }
 .aboutTxt{
 	text-align: center;
