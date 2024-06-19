@@ -153,12 +153,14 @@ pageName span{
 	background: url(../../images/introBg6.png) no-repeat center center;
 	background-size: cover;
 	width: 100%;
+
 }
 
 /***About***/
 #section1{
 	background: #f9ecd8;
 	width: 100%;
+	
 }
 
 /**좌측메뉴**/
