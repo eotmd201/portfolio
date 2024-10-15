@@ -130,6 +130,7 @@ pageName span{
 
 .inner{
 	position: relative;
+	left: -200px;
 }
 
 .Btn{
@@ -211,7 +212,8 @@ pageName span{
 .aboutR{
 	float: right;
 	line-height: 35px;/**35px;**/
-	padding: 0px 0; /**78px 0;**/
+	padding: 0px 0px; /**78px 0;**/
+	max-width: 100%;
 }
 
 .Clock
@@ -356,7 +358,7 @@ pageName span{
 
 .portR .firstTxt{
 	display: block;
-	width: 100%;
+	width: 200%;
 }
 .portR .lastTxt{
 	margin-bottom: 0;
