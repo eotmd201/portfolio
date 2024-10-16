@@ -130,7 +130,6 @@ pageName span{
 
 .inner{
 	position: relative;
-	left: -200px;
 }
 
 .Btn{
@@ -370,11 +369,11 @@ pageName span{
 	background: url(../../images/viewBtn.png) no-repeat center center;
 	width: 273px;
 	height: 69px; /***69px***/
-	margin: 0 35px /***0 35px***/
+	margin: 0px 0px 0px 200px; /***margin: 0 35px***/ /***0 35px***/
 }
 .viewBtnOn a{
 	display: block;
-	width: 273px;
+	width: 273px; /***273px;**/
 	height: 69px;
 	text-indent: -9999px;
 }
