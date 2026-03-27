@@ -608,6 +608,216 @@ pageName span{
 .contact .portTxt span {
 	vertical-align: top;
 }
+
+.mobileSwipe {
+    display: contents;
+}
+
+.mobilePanel {
+    display: contents;
+}
+
+/* 모바일 전용 */
+@media (max-width: 768px) {
+    #section1 .inner,
+    #section2 .inner,
+    #section3 .inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        min-height: 100vh;
+    }
+
+    #section1 .mobileSwipe,
+    #section2 .mobileSwipe,
+    #section3 .mobileSwipe {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+    }
+
+    #section1 .mobileSwipe::-webkit-scrollbar,
+    #section2 .mobileSwipe::-webkit-scrollbar,
+    #section3 .mobileSwipe::-webkit-scrollbar {
+        display: none;
+    }
+
+    #section1 .mobilePanel,
+    #section2 .mobilePanel,
+    #section3 .mobilePanel {
+        display: flex;
+        flex: 0 0 100%;
+        width: 100vw;
+        min-height: 100vh;
+        scroll-snap-align: start;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 24px 16px;
+    }
+
+    /* 기존 float 해제 */
+    .aboutL,
+    .aboutR,
+    .portL,
+    .portR {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    /* 좌측 카드 */
+    .txtBox {
+        width: 100%;
+        max-width: 560px;
+        padding: 80px 20px 40px;
+        box-sizing: border-box;
+    }
+
+    .intro .txtBox {
+        padding: 120px 20px 80px;
+    }
+
+    .about .txtBox {
+        padding: 80px 20px 40px;
+    }
+
+    /* About 왼쪽 카드 내부 */
+    .aboutPhoto {
+        width: 220px;
+        height: 220px;
+    }
+
+    .aboutIntro {
+        width: 100%;
+        max-width: 320px;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 24px auto 0;
+    }
+
+    .aboutIntro span {
+        font-size: 18px;
+    }
+
+    /* 우측 설명 카드 */
+    .aboutR,
+    .portR {
+        width: 100%;
+        max-width: 560px;
+        line-height: 1.7;
+        padding: 24px 20px;
+        box-sizing: border-box;
+    }
+
+    .aboutR dt,
+    .portR dt {
+        font-size: 20px;
+    }
+
+    .aboutR dd,
+    .portR dd {
+        font-size: 16px;
+        padding-bottom: 16px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .aboutR dd span,
+    .portR dd span {
+        display: block;
+        font-size: 17px;
+        margin-right: 0;
+        margin-bottom: 4px;
+    }
+
+    .portR .firstTxt {
+        width: 100%;
+    }
+
+    /* 포트폴리오 카드 */
+    .portTxt {
+        margin-left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+
+    .portTxt p {
+        font-size: 16px;
+    }
+
+    .portTxt h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .portTxt h3 {
+        font-size: 18px;
+    }
+
+    .mainPage {
+        width: 100%;
+        max-width: 320px;
+        height: 220px;
+        margin: 24px auto 0;
+    }
+
+    .portfolio02 .mainPage {
+        width: 100%;
+        max-width: 260px;
+        height: 260px;
+    }
+
+    .mViewBtn {
+        top: 20px;
+        right: 20px;
+        width: 32px;
+        height: 28px;
+    }
+
+    .mViewBtn:hover {
+        top: 20px;
+        right: 20px;
+        width: 32px;
+        height: 28px;
+    }
+
+    .mViewBtn a {
+        width: 32px;
+        height: 28px;
+    }
+
+    .viewBtnOn {
+        width: 220px;
+        height: 56px;
+        margin: 24px auto 0;
+        background-size: contain;
+    }
+
+    .viewBtnOn a {
+        width: 220px;
+        height: 56px;
+    }
+
+    /* pageName/menu 위치 보정 */
+    .pageName {
+        top: 28px;
+        left: 72px;
+        font-size: 14px;
+    }
+
+    .pageName:after {
+        width: 40px;
+    }
+
+    .menu {
+        top: 20px;
+        left: 20px;
+    }
 /*.cInfo .copyBtn01{
 	position: absolute;
 	top: 50%;
